@@ -1,0 +1,288 @@
+* {
+    direction: rtl;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+#logo {
+    width: 50%;
+    height: 50%;
+}
+
+#enter,
+#all_manage {
+    width: 30vw;
+    height: 25vw;
+    border: solid 8px rgb(173, 117, 42);
+    border-radius: 10%;
+    display: flex;
+    margin: auto;
+    margin-top: 2vw;
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+
+}
+
+#enter div #checkId,
+#all_manage div #check {
+
+    margin-top: 3vw;
+    width: 16vw;
+
+}
+
+#enter div,
+#all_manage div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#enter div input {
+    text-align: center;
+    height: 5vw;
+    font-size: 1.2vw;
+}
+
+#body_check_id,
+#body_manage,
+#body_all_stu {
+    background-color: black;
+    position: relative;
+}
+
+#body_manage h1 {
+    color: white;
+    position: absolute;
+    left: 40vw;
+    top: 8vw;
+}
+
+#exit {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#body_manage input {
+    text-align: center;
+    height: 5vw;
+
+    font-size: 1.2vw;
+
+}
+
+
+
+#list_stu {
+    position: absolute; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 5vw;
+    width: 80vw;
+    right: 20vw;
+}
+
+#list_stu li {
+    margin-top: 0.5vw;
+}
+
+#body_manage ul {
+    margin: auto;
+    position: absolute;
+    top: 20vw;
+}
+
+#allHome {
+    background-image: url("./images/גרפיקה3.jpg");
+    background-size: 100%;
+}
+
+#points {
+    width: 35vw;
+    height: 6vw;
+    font-size: x-large;
+    border: solid 8px rgb(173, 117, 42);
+    background-color: white;
+    color: black;
+}
+
+#all_home {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 40px;
+    background-color: Transparent;
+}
+
+#all_home button {
+    margin: 2vw;
+}
+
+#manage:hover,
+#all_students:hover,
+#points:hover {
+    color: white;
+    background-color: black;
+}
+
+#manage {
+    background-color: white;
+    border: solid 8px rgb(173, 117, 42);
+}
+
+#all_students {
+    background-color: white;
+    border: solid 8px rgb(173, 117, 42);
+}
+
+.img-rounded {
+    top: 4vw;
+    width: 20%;
+}
+
+#ul_class {
+    width: 30vw;
+    position: absolute;
+    left: 20px;
+    top: 12vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#ul_class li {
+    margin-top: 0.5vw;
+    right: 5vw;
+}
+
+#title {
+    font-size: 4vw;
+    text-align: center;
+    margin-top: 2vw;
+    color: rgb(173, 117, 42);
+}
+
+#stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 18vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 50vw;
+    top: 8vw;
+}
+
+#stage span ,#stage1 span{
+    font-size: 2vw;
+margin: 1vw;
+}
+
+#add_points_home {
+    background-color: black;
+}
+
+#checkbox_div {
+
+    color: white;
+    position: absolute;
+    top: 10vw;
+    right: 22vw;
+    font-size: 1.5vw;
+}
+
+#checkbox_div input {
+    margin-top: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+body img {
+    position: absolute;
+    top: 0px;
+
+}
+
+#list_student {
+    position: absolute;
+    width: 80vw;
+    top: 15vw;
+    left: 10vw;
+}
+
+#img {
+    background-color: white;
+
+}
+
+#allHome img {
+    position: absolute;
+    top: 31vh;
+    right: 6vw;
+}
+
+.square {
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    font-size: 1.2vw;
+    border: 2px solid white;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.square1 {
+    padding: 0.2vw;
+    width: 6vw;
+    height: 6vw;
+    font-size: 1.2vw;
+    border: 2px solid white;
+    color: white;
+    margin: 0.5vw;
+    text-align: center;
+}
+
+
+.red {
+    border: 5px solid red;
+    
+}
+
+.blue {
+    border: 5px solid blue;
+}
+
+.yellow {
+    border: 5px solid yellow;
+}
+#stage1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vw;
+    text-align: center;
+    position: absolute;
+    right: 8vw;
+}

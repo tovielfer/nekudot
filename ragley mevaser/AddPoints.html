@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../ragley mevaser/images/לוגו רגלי מבשר רקע.jpg" type="image/x-icon">
+    <title>רגלי מבשר</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body onload="student_class()" id="add_points_home">
+    <h1 id="title"></h1>
+    <img src="./images/לוגו רגלי מבשר.png" class="img-rounded">
+    <div id="stage">
+        <span style="color: red;">שלב א- אדום</span>
+        <span style="color: yellow;">שלב ב- צהוב</span>
+        <span style="color: blue;">שלב ג- כחול</span>
+    </div>
+    <div id="all_class">
+        <div id="ul_class" class="list-group"></div>
+    </div>
+    
+    <div id="checkbox_div">ביצעתי את המשימה של יום:
+        <br/>
+    <input type="checkbox" name="option" value="option1" class="single-select-checkbox">
+    <label>שני</label>
+    <br />
+    <input type="checkbox" name="option" value="option2" class="single-select-checkbox">
+    <label>שלישי</label>
+    <br />
+    <input type="checkbox" name="option" value="option3" class="single-select-checkbox">
+    <label>רביעי</label>
+    <br />
+    <input type="checkbox" name="option" value="option1" class="single-select-checkbox">
+    <label>חמישי</label>
+    <br />
+    <input type="checkbox" name="option" value="option2" class="single-select-checkbox">
+    <label>ראשון</label>
+    <br />
+    <input type="checkbox" name="option" value="option3" class="single-select-checkbox">
+    <label>שני</label>
+    <br />
+    <input type="checkbox" name="option" value="option3" class="single-select-checkbox">
+    <label>שלישי</label>
+    <br/>
+    <button onclick="addPoints()"class="btn btn-outline-light" style="margin-top: 2vw;">אישור</button>
+
+   </div>
+    <button class="btn btn-secondary" onclick="reLocation()" id="exit">יציאה</button>
+    <script src="script.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
